@@ -36,7 +36,7 @@ function LinksDropdown() {
       <DropdownMenuContent className="w-52" align="start" sideOffset={10}>
         <SignedOut>
           <DropdownMenuItem>
-            <SignInButton mode="modal">
+            <SignInButton mode="modal" >
               <button className="w-full text-left">Login</button>
             </SignInButton>
           </DropdownMenuItem>
