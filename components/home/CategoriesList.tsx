@@ -12,7 +12,7 @@ function  CategoriesList({
   const searchTerm = search ? `&search=${search}` : '';
   return (
     <section>
-      <ScrollArea className='py-6 ml-5'>
+      <ScrollArea className='pb-2 ml-5'>
         <div className='flex gap-x-4'>
           {categories.map((item) => {
             const isActive = item.label === category;

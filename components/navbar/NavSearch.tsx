@@ -6,7 +6,7 @@ import { useDebouncedCallback } from 'use-debounce';
 
 function NavSearch() {
   const searchParams = useSearchParams();
-
+  
   const pathname = usePathname();
   const { replace } = useRouter();
   const [search, setSearch] = useState(
@@ -30,7 +30,7 @@ function NavSearch() {
     <Input
       type='search'
       placeholder='find a property...'
-      className='max-w-xs dark:bg-muted '
+      className='max-w-xs dark:bg-muted'
       onChange={(e) => {
         setSearch(e.target.value);
         handleSearch(e.target.value);

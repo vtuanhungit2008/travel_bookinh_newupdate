@@ -6,7 +6,8 @@ function Logo() {
   return (
     <Button size='icon' asChild>
       <Link href='/'>
-        <LuTent className='w-6 h-6' />
+        <LuTent className='w-6 h-6' > Booking Hotel</LuTent>
+        
       </Link>
     </Button>
   );
